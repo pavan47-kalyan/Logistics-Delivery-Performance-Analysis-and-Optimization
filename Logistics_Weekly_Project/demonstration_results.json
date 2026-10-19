@@ -1,0 +1,22 @@
+{
+  "unique_shipments": 1800,
+  "on_time_rate_pct": 38.39,
+  "average_delivery_days": 3.996,
+  "average_shipping_cost_synthetic_units": 91.14,
+  "delay_rate_pct": 61.61,
+  "average_delay_days_when_delayed": 0.697,
+  "best_model_by_test_MAE": "Linear Regression",
+  "model_results": {
+    "Linear Regression": {
+      "MAE": 0.3351,
+      "RMSE": 0.4197,
+      "R2": 0.8819
+    },
+    "Random Forest": {
+      "MAE": 0.4061,
+      "RMSE": 0.5074,
+      "R2": 0.8274
+    }
+  },
+  "clustering_silhouette_score": 0.293
+}
